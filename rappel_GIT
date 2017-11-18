@@ -1,0 +1,18 @@
+git init
+git clone
+git status // info des modifs
+git diff // info sur un fichier
+git add ..// ajouter un fichier à la liste à commit
+git commit
+git log // pour l'historique des commits
+git log -p // pour les details des lignes
+git reset HEAD //annule dernier commit
+git reset --hard HEAD //annule et supprime les modifs
+git reset HEAD^ //annule avant dernier commit
+git reset HEAD --.. // retire un fichier add
+git pull // fait parvenir du serveur
+git push // envoie au serveur
+git revert .. // annule un commit publié
+git branch .. // cree une branche
+git checkout // change de branche
+git merge .. // fusionne la branche ciblé à la branche en utilisation
